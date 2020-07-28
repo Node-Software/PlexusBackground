@@ -56,12 +56,12 @@ func _draw():
 	for dot in positions:
 		for otherDot in positions:
 			if dot.distance_to(otherDot) < 300.0:
-				var alpha = clamp(dot.distance_to(otherDot)/180, 0, 1)
-				draw_line(dot, otherDot, Color(0.4,0.4,0.4, alpha), 2.5, true)
+				var alpha = clamp(dot.distance_to(otherDot)/1000, 0, 1)
+				draw_line(dot, otherDot, Color(1,1,1, alpha), 3, true)
 	#DrawDot
 	for dot in positions:
 		var dotID = positions.find(dot)
-		draw_circle(positions[dotID], sizes[dotID], Color.white)
+		draw_circle(positions[dotID], sizes[dotID], Color.whitesmoke)
 
 func newRandPos():
 	#Top
