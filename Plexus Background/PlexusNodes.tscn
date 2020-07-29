@@ -41,8 +41,8 @@ func _process(delta):
 func spawnNew(pos = null):
 	if pos == null:
 		pos = newRandPos()
-	var size = rand_range(5, 10)
-	var vel = Vector2(rand_range(-1, 1), rand_range(-1, 1))
+	var size = rand_range(((screen_x)/128), ((screen_x)/64))
+	var vel = Vector2(rand_range(-((screen_x)/256), ((screen_x)/256)), rand_range(-((screen_x)/128), ((screen_x)/128)))
 	positions.append(pos)
 	sizes.append(size)
 	velocities.append(vel)
@@ -51,9 +51,9 @@ func _draw():
 	#Connecting
 	for dot in positions:
 		for otherDot in positions:
-			if dot.distance_to(otherDot) < 250:
-				var alpha = clamp(dot.distance_to(otherDot)/1000, 0, 1)
-				draw_line(dot, otherDot, Color(1,1,1, alpha), 3, true)
+			if dot.distance_to(otherDot) < ((screen_x)/4):
+				var alpha = clamp(dot.distance_to(otherDot)/((screen_x)/2), 0, ((screen_x)/16))
+				draw_line(dot, otherDot, Color(1,1,1, alpha), ((screen_x)/256), true)
 	#DrawDot
 	for dot in positions:
 		var dotID = positions.find(dot)
