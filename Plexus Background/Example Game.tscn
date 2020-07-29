@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Node
+
+var Background = load(\"res://PlexusBackground.tscn\")
+var PlexusBackground = Background.instance()
+
+var UI = load(\"res://UI.tscn\")
+var UILoad = UI.instance()
+
+func _ready():
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_IGNORE, Vector2(0,0),1)
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_KEEP, Vector2(OS.get_screen_size()),1)
+	add_child(PlexusBackground)
+	add_child(UILoad)
+"
+
+[node name="Example Game" type="Node"]
+script = SubResource( 1 )

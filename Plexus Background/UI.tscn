@@ -1,0 +1,364 @@
+[gd_scene load_steps=11 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Button
+
+func _on_640_x_480_pressed():
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_IGNORE, Vector2(0,0),1)
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_KEEP, Vector2(640,480),1)
+	pass
+"
+
+[sub_resource type="GDScript" id=2]
+script/source = "extends Button
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+func _on_800_x_600_pressed():
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_IGNORE, Vector2(0,0),1)
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_KEEP, Vector2(800,600),1)
+	pass
+"
+
+[sub_resource type="GDScript" id=3]
+script/source = "extends Button
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+func _on_1024_x_768_pressed():
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_IGNORE, Vector2(0,0),1)
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_KEEP, Vector2(1024,768),1)
+	pass 
+"
+
+[sub_resource type="GDScript" id=4]
+script/source = "extends Button
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+func _on_1024_x_576_pressed():
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_IGNORE, Vector2(0,0),1)
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_KEEP, Vector2(1024,576),1)
+	pass # Replace with function body.
+"
+
+[sub_resource type="GDScript" id=5]
+script/source = "extends Button
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+func _on_1152_x_648_pressed():
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_IGNORE, Vector2(0,0),1)
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_KEEP, Vector2(1152,648),1)
+	pass
+"
+
+[sub_resource type="GDScript" id=6]
+script/source = "extends Button
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+func _on_1280_x_720_pressed():
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_IGNORE, Vector2(0,0),1)
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_KEEP, Vector2(1280,720),1)
+	pass # Replace with function body.
+"
+
+[sub_resource type="GDScript" id=7]
+script/source = "extends Button
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+func _on_1366_x_768_pressed():
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_IGNORE, Vector2(0,0),1)
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_KEEP, Vector2(1366,768),1)
+	pass # Replace with function body.
+"
+
+[sub_resource type="GDScript" id=8]
+script/source = "extends Button
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+func _on_1920_x_1080_pressed():
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_IGNORE, Vector2(0,0),1)
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_KEEP, Vector2(1920,1080),1)
+	pass # Replace with function body.
+"
+
+[sub_resource type="GDScript" id=10]
+script/source = "extends Button
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+func _on_3840_x_2160_pressed():
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_IGNORE, Vector2(0,0),1)
+	get_tree().set_screen_stretch(SceneTree.STRETCH_MODE_VIEWPORT,  SceneTree.STRETCH_ASPECT_KEEP, Vector2(3840,2160),1)
+	pass # Replace with function body.
+"
+
+[sub_resource type="GDScript" id=9]
+script/source = "extends Button
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+func _on_Quit_pressed():
+	get_tree().quit()
+	pass # Replace with function body.
+"
+
+[node name="Example UI" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 4.0
+margin_right = -4.0
+margin_bottom = -4.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+margin_right = 1016.0
+margin_bottom = 592.0
+
+[node name="Resolution" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+margin_right = 336.0
+margin_bottom = 592.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="640 x 480" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
+margin_right = 336.0
+margin_bottom = 20.0
+action_mode = 0
+text = "640 x 480 Fullscreen"
+script = SubResource( 1 )
+
+[node name="800 x 600" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
+margin_top = 24.0
+margin_right = 336.0
+margin_bottom = 44.0
+action_mode = 0
+text = "800 x 600 Fullscreen"
+script = SubResource( 2 )
+
+[node name="1024 x 768" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
+margin_top = 48.0
+margin_right = 336.0
+margin_bottom = 68.0
+action_mode = 0
+text = "1024 x 768 Fullscreen"
+script = SubResource( 3 )
+
+[node name="1024 x 576" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
+margin_top = 72.0
+margin_right = 336.0
+margin_bottom = 92.0
+action_mode = 0
+text = "1024 x 576 Fullscreen"
+script = SubResource( 4 )
+
+[node name="1152 x 648" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
+margin_top = 96.0
+margin_right = 336.0
+margin_bottom = 116.0
+action_mode = 0
+text = "1152 x 648 Fullscreen"
+script = SubResource( 5 )
+
+[node name="1280 x 720" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
+margin_top = 120.0
+margin_right = 336.0
+margin_bottom = 140.0
+action_mode = 0
+text = "1280 x 720 Fullscreen"
+script = SubResource( 6 )
+
+[node name="1366 x 768" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
+margin_top = 144.0
+margin_right = 336.0
+margin_bottom = 164.0
+action_mode = 0
+text = "1366 x 768 Fullscreen"
+script = SubResource( 7 )
+
+[node name="1920 x 1080" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
+margin_top = 168.0
+margin_right = 336.0
+margin_bottom = 188.0
+action_mode = 0
+text = "1920 x 1080 Fullscreen"
+script = SubResource( 8 )
+
+[node name="3840 x 2160" type="Button" parent="MarginContainer/HBoxContainer/Resolution"]
+margin_top = 192.0
+margin_right = 336.0
+margin_bottom = 212.0
+action_mode = 0
+text = "3840 x 2160 Fullscreen"
+script = SubResource( 10 )
+
+[node name="Control" type="Control" parent="MarginContainer/HBoxContainer"]
+margin_left = 340.0
+margin_right = 676.0
+margin_bottom = 592.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Exit" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+margin_left = 680.0
+margin_right = 1016.0
+margin_bottom = 592.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Quit" type="Button" parent="MarginContainer/HBoxContainer/Exit"]
+margin_right = 336.0
+margin_bottom = 20.0
+action_mode = 0
+text = "Exit"
+script = SubResource( 9 )
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Resolution/640 x 480" to="MarginContainer/HBoxContainer/Resolution/640 x 480" method="_on_640_x_480_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Resolution/800 x 600" to="MarginContainer/HBoxContainer/Resolution/800 x 600" method="_on_800_x_600_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Resolution/1024 x 768" to="MarginContainer/HBoxContainer/Resolution/1024 x 768" method="_on_1024_x_768_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Resolution/1024 x 576" to="MarginContainer/HBoxContainer/Resolution/1024 x 576" method="_on_1024_x_576_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Resolution/1152 x 648" to="MarginContainer/HBoxContainer/Resolution/1152 x 648" method="_on_1152_x_648_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Resolution/1280 x 720" to="MarginContainer/HBoxContainer/Resolution/1280 x 720" method="_on_1280_x_720_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Resolution/1366 x 768" to="MarginContainer/HBoxContainer/Resolution/1366 x 768" method="_on_1366_x_768_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Resolution/1920 x 1080" to="MarginContainer/HBoxContainer/Resolution/1920 x 1080" method="_on_1920_x_1080_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Resolution/3840 x 2160" to="MarginContainer/HBoxContainer/Resolution/3840 x 2160" method="_on_3840_x_2160_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Exit/Quit" to="MarginContainer/HBoxContainer/Exit/Quit" method="_on_Quit_pressed"]
